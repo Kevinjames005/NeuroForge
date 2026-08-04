@@ -1,0 +1,6 @@
+BCICIV_2a_gdf.zip
+BCICIV_2a_gdf/
+
+.venv/
+__pycache__/
+*.pyc
