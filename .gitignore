@@ -1,0 +1,28 @@
+# Virtual environment
+neuro_venv/
+venv/
+
+# Original datasets
+datasets/
+
+# Generated/working data
+data/raw/*
+data/processed/*
+data/synthetic/*
+
+# Keep directory placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+!data/models/.gitkeep
+
+# Databases
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
