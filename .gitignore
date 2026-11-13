@@ -26,3 +26,28 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Other virtual environment names
+.venv/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
